@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Modify Product in Catalog</title></head>
+<body>
+<table border="1" cellspacing="0">
+<tr><td colspan="5">com.sabre.apd.fixture.SetupCatalogFixture</td></tr>
+<tr><td>name</td><td>catalogId</td><td>description</td><td>price</td><td>success()</td></tr>
+<tr><td>Widget</td><td>1</td><td>Does the work</td><td>20</td><td>true</td></tr>
+</table>
+
+<br>
+
+<table border="1" cellspacing="0">
+<tr><td colspan="3">fit.ActionFixture</td></tr>
+<tr><td>start</td><td colspan="2">com.sabre.apd.fixture.ModifyProductFixture</td></tr>
+<tr><td>enter</td><td>catalog id</td><td>1</td></tr>
+<tr><td>check</td><td>product</td><td>1 Widget 20 "Does the work"</td></tr>
+<tr><td>enter</td><td>new description</td><td>Does the job of twenty cogs</td></tr>
+<tr><td>enter</td><td>new price</td><td>100</td></tr>
+<tr><td>press</td><td colspan="2">update product</td></tr>
+</table>
+
+<br><br>
+
+<table border="1" cellspacing="0">
+<tr><td colspan="4">com.sabre.apd.fixture.ViewCatalogFixture </td></tr>
+<tr><td>getCatalogNumber()</td><td>getName()</td><td>getDescription()</td><td>getPrice()</td></tr>
+<tr><td>1</td><td>Widget</td><td>Does the job of twenty cogs</td><td>100</td></tr>
+</table>
+
+What is the effect on orders that have been placed? Orders that are being placed?
+
+</body>
+</html>
