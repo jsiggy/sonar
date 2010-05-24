@@ -63,7 +63,7 @@ public class ClientLayerTest {
       shoppingCart.addItemToOrder(CatalogNumber.getInstanceFor(1), 1);
       shoppingCart.addItemToOrder(CatalogNumber.getInstanceFor(2), 1);
       shoppingCart.addItemToOrder(CatalogNumber.getInstanceFor(3), 1);
-      shoppingCart.checkOut();
+      orderProcessing.processOrder(shoppingCart.getOrder());
       Assert.assertEquals("3 items", 600, shoppingCart.getOrder().totalPrice());
       Assert.assertEquals("order status", OrderStatus.SHIPPED, shoppingCart.getOrder().getStatus());
    }

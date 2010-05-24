@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100303</FitNesseVersion>
+  <rootPath>SimplePurchaseScenario</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <content><![CDATA[<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('4068813700845404960');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4068813700845404960"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="DomainIntro.SetUp">.DomainIntro.SetUp</a> <a href="DomainIntro.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="4068813700845404960"><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-8921243121174902119');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-8921243121174902119"/>
+	</a>
+&nbsp;<span class="meta">setup test system </span>
+	<div class="hidden" id="-8921243121174902119"><br/><span class="meta">variable defined: TEST_SYSTEM=slim</span><br/><br/><span class="meta">classpath: ./givwenzen-with-dependencies-1.0.0beta10.jar</span><br/></div>
+</div>
+<br/><table border="1" cellspacing="0">
+<tr><td class="error">import<hr/> <span class="fit_label">Could not find fixture: import.</span></td>
+</tr>
+<tr><td>org.givwenzen</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr class="hidden"><td colspan="2" class="error">script<hr/> <span class="fit_label">Could not find fixture: script.</span></td>
+</tr>
+<tr><td>start</td>
+<td>giv wen zen for slim</td>
+</tr>
+</table>
+</div>
+</div>
+<table border="1" cellspacing="0">
+<tr class="hidden"><td colspan="2" class="error">script<hr/> <span class="fit_label">Could not find fixture: script.</span></td>
+</tr>
+<tr><td>given</td>
+<td>a custom instantiation strategy for creating custom step classes</td>
+</tr>
+<tr><td>and</td>
+<td>a step class that is created by the custom instantiation strategy</td>
+</tr>
+<tr><td>when</td>
+<td>a step is called that exists in the step class created by the custom instantiation strategy</td>
+</tr>
+<tr><td>then</td>
+<td>the step in the step class created by the custom instantiation strategy is executed successfully</td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>SimplePurchaseScenario</relativePageName>
+    
+    
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

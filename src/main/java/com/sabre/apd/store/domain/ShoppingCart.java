@@ -49,15 +49,6 @@ public class ShoppingCart implements IShoppingCart {
       return (IProduct) productsByCatalogId.get(catalogId);
    }
 
-   public void checkOut() throws ShoppingCartException {
-      try {
-         orderProcessing.processOrder(order);
-      }
-      catch (OrderProcessorException e) {
-         throw new ShoppingCartException("Order not placed: ", e);
-      }
-   }
-
    public OrderNumber getOrderNumber() {
       return order.getOrderNumber();
    }

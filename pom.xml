@@ -20,6 +20,14 @@
             <version>4.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.givwenzen</groupId>
+            <artifactId>GivWenZen</artifactId>
+	        <version>1.0Beta10</version> 
+            <scope>test</scope>
+        </dependency>
+            
     </dependencies>
 
     <build>

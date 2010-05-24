@@ -8,11 +8,9 @@ package com.sabre.apd.store.domain;
 
 import com.sabre.apd.store.application.*;
 import com.sabre.apd.store.common.*;
-import com.sabre.apd.store.configuration.*;
 import org.junit.*;
 
 public class SimplePurchaseScenarioTest {
-   private StoreConfiguration storeConfiguration;
    private IOrderProcessor orderProcessing;
    private IShoppingCart shoppingCart;
    private IWarehouse warehouse;
@@ -21,14 +19,11 @@ public class SimplePurchaseScenarioTest {
 
    @Before
    public void setUp() throws Exception {
-
       Application.setUpStoreConfiguration();
    }
 
    @Test
    public void testPurchaseWithSufficientInventoryAllAtOnce() throws Exception {
-
-      IShoppingCart cart = StoreConfiguration.getShoppingCart();
 
    }
 

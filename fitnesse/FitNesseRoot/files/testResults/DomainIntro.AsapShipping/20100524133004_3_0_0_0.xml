@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100303</FitNesseVersion>
+  <rootPath>AsapShipping</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <content><![CDATA[<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('8553218064345463595');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img8553218064345463595"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="DomainIntro.SetUp">.DomainIntro.SetUp</a> <a href="DomainIntro.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="8553218064345463595"><span class="meta">classpath: C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\..\target\test-classes</span><br/><span class="meta">classpath: C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\..\target\classes</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\org\givwenzen\GivWenZen\1.0Beta10\GivWenZen-1.0Beta10.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\org\fitnesse\fitnesse\20100303\fitnesse-20100303.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\com\google\collections\google-collections\1.0-rc4\google-collections-1.0-rc4.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\javassist\javassist\3.8.0.GA\javassist-3.8.0.GA.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\org\slf4j\slf4j-simple\1.5.6\slf4j-simple-1.5.6.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\dom4j\dom4j\1.6\dom4j-1.6.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\apache-log4j\log4j\1.2.14\log4j-1.2.14.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\commons-vfs\commons-vfs\1.0\commons-vfs-1.0.jar</span><br/><br/><br/><table border="1" cellspacing="0" _TABLENUMBER=2635259092942125754>
+<tr><td>import</td>
+</tr>
+<tr><td>org.givwenzen</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7518728204616825295>
+<tr class="hidden"><td colspan="2">script</td>
+</tr>
+<tr><td>start</td>
+<td><span class="pass">giv wen zen for slim</span></td>
+</tr>
+</table>
+</div>
+</div>
+<table border="1" cellspacing="0" _TABLENUMBER=672618861055159227>
+<tr class="hidden"><td colspan="2">script</td>
+</tr>
+<tr><td>given</td>
+<td>inventory has 8 products</td>
+</tr>
+<tr><td>and</td>
+<td>product name is pen</td>
+</tr>
+<tr><td>when</td>
+<td>an order for 20 pen products are placed</td>
+</tr>
+<tr><td>and</td>
+<td>with the option of shipping ASAP</td>
+</tr>
+<tr><td>and</td>
+<td>order was processed</td>
+</tr>
+<tr><td><span class="pass">then</span></td>
+<td>inventory will have 0 pen products</td>
+</tr>
+<tr><td><span class="pass">and</span></td>
+<td>there will be 1 shipment/s</td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>AsapShipping</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[org.givwenzen]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start]]></col>
+                    <col><![CDATA[pass(giv wen zen for slim)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_2</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[given]]></col>
+                    <col><![CDATA[inventory has 8 products]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and]]></col>
+                    <col><![CDATA[product name is pen]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[when]]></col>
+                    <col><![CDATA[an order for 20 pen products are placed]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and]]></col>
+                    <col><![CDATA[with the option of shipping ASAP]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and]]></col>
+                    <col><![CDATA[order was processed]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(then)]]></col>
+                    <col><![CDATA[inventory will have 0 pen products]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(and)]]></col>
+                    <col><![CDATA[there will be 1 shipment/s]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, org.givwenzen]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, GivWenZenForSlim]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[giv wen zen for slim]]></expected>
+                              <evaluationMessage><![CDATA[pass(giv wen zen for slim)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_0, call, scriptTableActor, given, inventory has 8 products]]]></instruction>
+        <slimResult><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></actual>
+                              <expected><![CDATA[given]]></expected>
+                              <evaluationMessage><![CDATA[given]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_1, call, scriptTableActor, and, product name is pen]]]></instruction>
+        <slimResult><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></actual>
+                              <expected><![CDATA[and]]></expected>
+                              <evaluationMessage><![CDATA[and]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_2, call, scriptTableActor, when, an order for 20 pen products are placed]]]></instruction>
+        <slimResult><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></actual>
+                              <expected><![CDATA[when]]></expected>
+                              <evaluationMessage><![CDATA[when]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_3, call, scriptTableActor, and, with the option of shipping ASAP]]]></instruction>
+        <slimResult><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_3</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></actual>
+                              <expected><![CDATA[and]]></expected>
+                              <evaluationMessage><![CDATA[and]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_4, call, scriptTableActor, and, order was processed]]]></instruction>
+        <slimResult><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_4</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[org.givwenzen.GivWenZenExecutor@1479feb]]></actual>
+                              <expected><![CDATA[and]]></expected>
+                              <evaluationMessage><![CDATA[and]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_5, call, scriptTableActor, then, inventory will have 0 pen products]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_5</instructionId>
+          <col>1</col>
+          <row>6</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_2_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[then]]></expected>
+                              <evaluationMessage><![CDATA[pass(then)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_6, call, scriptTableActor, and, there will be 1 shipment/s]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_6</instructionId>
+          <col>1</col>
+          <row>7</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_2_6</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[and]]></expected>
+                              <evaluationMessage><![CDATA[pass(and)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

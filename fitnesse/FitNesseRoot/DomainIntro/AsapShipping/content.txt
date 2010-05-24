@@ -1,0 +1,8 @@
+-|script|
+|given|inventory has 8 products|
+|and|product name is pen|
+|when|an order for 20 pen products are placed|
+|and|with the option of shipping ASAP|
+|and|order was processed|
+|then|inventory will have 0 pen products|
+|and|there will be 1 shipment/s|

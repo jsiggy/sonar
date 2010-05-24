@@ -20,6 +20,4 @@ public interface IShoppingCart {
    Collection getProducts();
 
    IProduct getProductByCatalogId(CatalogNumber catalogNumber);
-
-   void checkOut() throws ShoppingCartException;
 }

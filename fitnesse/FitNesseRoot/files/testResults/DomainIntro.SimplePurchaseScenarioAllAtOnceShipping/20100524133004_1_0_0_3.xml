@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100303</FitNesseVersion>
+  <rootPath>SimplePurchaseScenarioAllAtOnceShipping</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <content><![CDATA[<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-5913424170543685816');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5913424170543685816"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="DomainIntro.SetUp">.DomainIntro.SetUp</a> <a href="DomainIntro.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-5913424170543685816"><span class="meta">classpath: C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\..\target\test-classes</span><br/><span class="meta">classpath: C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\..\target\classes</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\org\givwenzen\GivWenZen\1.0Beta10\GivWenZen-1.0Beta10.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\org\fitnesse\fitnesse\20100303\fitnesse-20100303.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\com\google\collections\google-collections\1.0-rc4\google-collections-1.0-rc4.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\javassist\javassist\3.8.0.GA\javassist-3.8.0.GA.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\org\slf4j\slf4j-simple\1.5.6\slf4j-simple-1.5.6.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\dom4j\dom4j\1.6\dom4j-1.6.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\apache-log4j\log4j\1.2.14\log4j-1.2.14.jar</span><br/><span class="meta">classpath: C:\Documents and Settings\sg0899445\.m2\repository\commons-vfs\commons-vfs\1.0\commons-vfs-1.0.jar</span><br/><br/><br/><table border="1" cellspacing="0" _TABLENUMBER=2397472965417583330>
+<tr><td>import</td>
+</tr>
+<tr><td>org.givwenzen</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6857724580947225533>
+<tr class="hidden"><td colspan="2">script</td>
+</tr>
+<tr><td>start</td>
+<td><span class="pass">giv wen zen for slim</span></td>
+</tr>
+</table>
+</div>
+</div>
+<div id="test_exceptions4"><H3> <span class="fail">Exceptions</span></H3><br/><a name="scriptTable_2_1"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('-6391257532208257606');"><img src="/files/images/collapsableClosed.gif" class="left" id="img-6391257532208257606"/></a>&nbsp;<span class="meta">scriptTable_2_1 </span>
+
+	<div class="hidden" id="-6391257532208257606"><pre>__EXCEPTION__:org.givwenzen.DomainStepNotFoundException: 
+You need a step class with an annotated method matching this pattern: 'an order for 8 pen products are placed with the option of shipping all at once'
+The step class should be placed in the package or sub-package of bdd.steps or your custom package if defined.
+Example:
+  @DomainSteps
+  public class StepClass {
+    @DomainStep("an order for 8 pen products are placed with the option of shipping all at once")
+    public void domainStep() {
+      // TODO implement step
+    }  }
+Typical causes of this error are:
+  * StepClass is missing the @DomainSteps annotation
+  * StepMethod is missing the @DomainStep annotation
+  * The step method annotation has a regular expression that is not matching the current test step
+
+</pre></div>
+</div><a name="scriptTable_2_2"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('3035227799384346860');"><img src="/files/images/collapsableClosed.gif" class="left" id="img3035227799384346860"/></a>&nbsp;<span class="meta">scriptTable_2_2 </span>
+
+	<div class="hidden" id="3035227799384346860"><pre>__EXCEPTION__:org.givwenzen.GivWenZenExecutionException: 
+Error while executing step: inventory will have 0 pen products
+  found matching method annotated with: inventory will have (\d+) (.*) products
+  method signature is: public boolean bdd.steps.SimplePurchaseScenario.updateInventory(int,java.lang.String)
+  step class is: bdd.steps.SimplePurchaseScenario
+	at org.givwenzen.MethodAndInvocationTarget.invoke(Unknown Source)
+	at org.givwenzen.GivWenZenExecutor.executeMethodWithMatchingAnnotation(Unknown Source)
+	at org.givwenzen.GivWenZenExecutor.then(Unknown Source)
+	at org.givwenzen.GivWenZenForSlim.then(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:47)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:31)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:87)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:155)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:99)
+	at fitnesse.slim.Statement.call(Statement.java:92)
+	at fitnesse.slim.Statement.execute(Statement.java:72)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:36)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:93)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:78)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:95)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	... 24 more
+Caused by: java.lang.NullPointerException
+	at com.sabre.apd.store.external.warehouse.Warehouse.getBin(Warehouse.java:56)
+	at com.sabre.apd.store.external.warehouse.Warehouse.getCountOfProductInInventory(Warehouse.java:35)
+	at bdd.steps.SimplePurchaseScenario.updateInventory(SimplePurchaseScenario.java:102)
+	... 28 more
+</pre></div>
+</div><a name="scriptTable_2_0"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('2704533563414474134');"><img src="/files/images/collapsableClosed.gif" class="left" id="img2704533563414474134"/></a>&nbsp;<span class="meta">scriptTable_2_0 </span>
+
+	<div class="hidden" id="2704533563414474134"><pre>__EXCEPTION__:org.givwenzen.DomainStepNotFoundException: 
+You need a step class with an annotated method matching this pattern: 'inventory has 8 pen products'
+The step class should be placed in the package or sub-package of bdd.steps or your custom package if defined.
+Example:
+  @DomainSteps
+  public class StepClass {
+    @DomainStep("inventory has 8 pen products")
+    public void domainStep() {
+      // TODO implement step
+    }  }
+Typical causes of this error are:
+  * StepClass is missing the @DomainSteps annotation
+  * StepMethod is missing the @DomainStep annotation
+  * The step method annotation has a regular expression that is not matching the current test step
+
+</pre></div>
+</div></div><hr/><table border="1" cellspacing="0" _TABLENUMBER=4763200679450399589>
+<tr class="hidden"><td colspan="2">script</td>
+</tr>
+<tr><td>given</td>
+<td>inventory has 8 pen products</td>
+</tr>
+<tr><td>when</td>
+<td>an order for 8 pen products are placed with the option of shipping all at once</td>
+</tr>
+<tr><td>then</td>
+<td>inventory will have 0 pen products</td>
+</tr>
+</table>
+<br/><br/>]]></content>
+    <relativePageName>SimplePurchaseScenarioAllAtOnceShipping</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[org.givwenzen]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start]]></col>
+                    <col><![CDATA[pass(giv wen zen for slim)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_2</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[given]]></col>
+                    <col><![CDATA[inventory has 8 pen products]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[when]]></col>
+                    <col><![CDATA[an order for 8 pen products are placed with the option of shipping all at once]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[then]]></col>
+                    <col><![CDATA[inventory will have 0 pen products]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, org.givwenzen]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, GivWenZenForSlim]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[giv wen zen for slim]]></expected>
+                              <evaluationMessage><![CDATA[pass(giv wen zen for slim)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_0, call, scriptTableActor, given, inventory has 8 pen products]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_2_0>scriptTable_2_0</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_0>scriptTable_2_0</a>]]></actual>
+                              <expected><![CDATA[given]]></expected>
+                              <evaluationMessage><![CDATA[given]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_1, call, scriptTableActor, when, an order for 8 pen products are placed with the option of shipping all at once]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></actual>
+                              <expected><![CDATA[when]]></expected>
+                              <evaluationMessage><![CDATA[when]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_2, call, scriptTableActor, then, inventory will have 0 pen products]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_2_2>scriptTable_2_2</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_2>scriptTable_2_2</a>]]></actual>
+                              <expected><![CDATA[then]]></expected>
+                              <evaluationMessage><![CDATA[then]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

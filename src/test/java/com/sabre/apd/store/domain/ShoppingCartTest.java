@@ -72,7 +72,7 @@ public class ShoppingCartTest extends OnlineStoreTestCase {
       totalPrice += product1.getPrice();
       assertEquals("1 item in the order", totalPrice, shoppingCart.getOrder().totalPrice());
 
-      shoppingCart.checkOut();
+      orderProcessing.processOrder(shoppingCart.getOrder());
       totalPrice = 0;
       shoppingCart.addItemToOrder(CatalogNumber.getInstanceFor(CATALOG_NUMBER_1), 2);
       totalPrice += (product1.getPrice() * 2);
