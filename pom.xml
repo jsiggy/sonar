@@ -27,6 +27,13 @@
 	        <version>1.0Beta10</version> 
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.fitnesse</groupId>
+            <artifactId>fitnesse</artifactId>
+	        <version>20100303</version>
+            <scope>runtime</scope>
+        </dependency>
             
     </dependencies>
 

@@ -1,48 +1,37 @@
 !3 !-slim-!
-|'''Date: '''|!-1:30:04 PM (CST) on Monday, May 24, 2010-!|
+|'''Date: '''|!-9:45:59 AM (CST) on Tuesday, May 25, 2010-!|
 |'''Test Page: '''|.DomainIntro|
-|'''Command: '''|!-java -cp fitnesse.jar;"C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\..\target\test-classes;C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\..\target\classes;C:\Documents and Settings\sg0899445\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Documents and Settings\sg0899445\.m2\repository\org\givwenzen\GivWenZen\1.0Beta10\GivWenZen-1.0Beta10.jar;C:\Documents and Settings\sg0899445\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Documents and Settings\sg0899445\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Documents and Settings\sg0899445\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Documents and Settings\sg0899445\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Documents and Settings\sg0899445\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Documents and Settings\sg0899445\.m2\repository\org\fitnesse\fitnesse\20100303\fitnesse-20100303.jar;C:\Documents and Settings\sg0899445\.m2\repository\com\google\collections\google-collections\1.0-rc4\google-collections-1.0-rc4.jar;C:\Documents and Settings\sg0899445\.m2\repository\javassist\javassist\3.8.0.GA\javassist-3.8.0.GA.jar;C:\Documents and Settings\sg0899445\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Documents and Settings\sg0899445\.m2\repository\org\slf4j\slf4j-simple\1.5.6\slf4j-simple-1.5.6.jar;C:\Documents and Settings\sg0899445\.m2\repository\dom4j\dom4j\1.6\dom4j-1.6.jar;C:\Documents and Settings\sg0899445\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Documents and Settings\sg0899445\.m2\repository\apache-log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Documents and Settings\sg0899445\.m2\repository\commons-vfs\commons-vfs\1.0\commons-vfs-1.0.jar" fitnesse.slim.SlimService  8086-!|
+|'''Command: '''|!-java -cp fitnesse.jar;"C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\..\target\test-classes;C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\..\target\classes;C:\Documents and Settings\sg0899445\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Documents and Settings\sg0899445\.m2\repository\org\givwenzen\GivWenZen\1.0Beta10\GivWenZen-1.0Beta10.jar;C:\Documents and Settings\sg0899445\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Documents and Settings\sg0899445\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Documents and Settings\sg0899445\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Documents and Settings\sg0899445\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Documents and Settings\sg0899445\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Documents and Settings\sg0899445\.m2\repository\org\fitnesse\fitnesse\20100303\fitnesse-20100303.jar;C:\Documents and Settings\sg0899445\.m2\repository\com\google\collections\google-collections\1.0-rc4\google-collections-1.0-rc4.jar;C:\Documents and Settings\sg0899445\.m2\repository\javassist\javassist\3.8.0.GA\javassist-3.8.0.GA.jar;C:\Documents and Settings\sg0899445\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Documents and Settings\sg0899445\.m2\repository\org\slf4j\slf4j-simple\1.5.6\slf4j-simple-1.5.6.jar;C:\Documents and Settings\sg0899445\.m2\repository\dom4j\dom4j\1.6\dom4j-1.6.jar;C:\Documents and Settings\sg0899445\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Documents and Settings\sg0899445\.m2\repository\apache-log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Documents and Settings\sg0899445\.m2\repository\commons-vfs\commons-vfs\1.0\commons-vfs-1.0.jar" fitnesse.slim.SlimService  8087-!|
 |'''Exit code: '''|!-0-!|
-|'''Time elapsed: '''|!-11.672 seconds-!|
+|'''Time elapsed: '''|!-1.719 seconds-!|
 ----'''Standard Error:'''
 {{{log4j:WARN No appenders could be found for logger (org.apache.commons.vfs.impl.DefaultFileReplicator).
 log4j:WARN Please initialize the log4j system properly.
-6641 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-6641 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-6641 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-6641 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-6641 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-6656 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-6656 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-6656 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-6656 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7266 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7266 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7266 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7266 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7266 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7281 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7281 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7281 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7281 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7641 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7641 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7641 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7641 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7656 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7656 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7656 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7656 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7656 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7828 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7828 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7828 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7828 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7828 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7828 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7828 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7828 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7844 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7844 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
-7860 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+313 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+313 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+313 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+313 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+313 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+313 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+313 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+313 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+313 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+500 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+500 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+500 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+500 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+500 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+500 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+500 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+500 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+516 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+813 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+813 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+813 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+813 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+813 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+813 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+813 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+813 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
+813 [Thread-1] ERROR org.givwenzen.reflections.Reflections - given scan urls are empty. set urls in the configuration
 }}}

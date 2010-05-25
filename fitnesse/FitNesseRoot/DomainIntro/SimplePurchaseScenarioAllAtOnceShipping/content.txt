@@ -1,6 +1,0 @@
--|script|
-|given|inventory has 8 pen products|
-|when|an order for 8 pen products are placed with the option of shipping all at once|
-|then|inventory will have 0 pen products|
-
-
