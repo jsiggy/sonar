@@ -30,14 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f189b08d-6388-4632-ac41-05444e216eac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnesse/FitNesseRoot/ErrorLogs/DomainIntro/content.txt" afterPath="$PROJECT_DIR$/fitnesse/FitNesseRoot/ErrorLogs/DomainIntro/content.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleDesign.iws" afterPath="$PROJECT_DIR$/SimpleDesign.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleDesign.iml" afterPath="$PROJECT_DIR$/SimpleDesign.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnesse/velocity.log" afterPath="$PROJECT_DIR$/fitnesse/velocity.log" />
-      <change type="DELETED" beforePath="C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\FitNesseRoot\DomainIntro\SimplePurchaseScenarioAllAtOnceShipping\content.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\FitNesseRoot\DomainIntro\SimplePurchaseScenarioAllAtOnceShipping\properties.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\FitNesseRoot\DomainIntro\AllAtOnceShipping\properties.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SimpleDesign\Exercise 01-Domain Intro\Exercise-provided\fitnesse\FitNesseRoot\DomainIntro\AllAtOnceShipping\content.txt" afterPath="" />
     </list>
     <ignored path="$USER_HOME_GRIFFON$/" />
     <ignored path="$USER_HOME_GRAILS$/" />
