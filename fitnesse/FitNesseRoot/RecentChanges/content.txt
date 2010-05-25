@@ -1,5 +1,5 @@
-|DomainIntro.AsapShipping||19:25:47 Thu, May 20, 2010|
-|DomainIntro.AllAtOnceShippingNothingShipped||19:25:38 Thu, May 20, 2010|
+|DomainIntro.AsapShipping||15:49:01 Tue, May 25, 2010|
+|DomainIntro.AllAtOnceShippingNothingShipped||15:48:12 Tue, May 25, 2010|
 |DomainIntro.AllAtOnceShipping||19:24:31 Thu, May 20, 2010|
 |DomainIntro.SimplePurchaseScenarioAllAtOnceShippingNothingShipped||19:13:21 Thu, May 20, 2010|
 |DomainIntro.SimplePurchaseScenarioAllAtOnceShipping||18:59:26 Thu, May 20, 2010|

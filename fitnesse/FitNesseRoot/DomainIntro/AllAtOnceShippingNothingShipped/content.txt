@@ -1,8 +1,7 @@
--|script|
-|given|inventory has 8 products|
-|and|product name is pen|
-|when|an order for 10 pen products are placed|
-|and|with the option of shipping all at once|
-|and|order was processed|
-|then|inventory will have 8 pen products|
-|and|there will be 0 shipment/s|
+![: script
+given: 8 pen products in inventory
+and: with the option of shipping all at once
+when: 10 pen products are ordered
+then: inventory will have 8 pen products
+and: there will be 0 shipment/s
+]!

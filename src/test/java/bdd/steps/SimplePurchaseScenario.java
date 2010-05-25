@@ -39,45 +39,11 @@ public class SimplePurchaseScenario {
 
    @DomainStep(QUANTITY + " " + PRODUCT_NAME + " products are ordered")
    public void placeAnOrderFor(int quantity, String productName) throws Exception {
-      placeAnOrder(quantity, productName);
-      processOrder();
-   }
-
-   @DomainStep("inventory has " + QUANTITY + " products")
-   public void addProductsToInventory(int productQuantity) throws Exception {
-      Product product = createProduct(DEFAULT_PRODUCT_NAME);
-      addToShoppingCart(product);
-      restockInventoryFor(productQuantity, product);
-   }
-
-   private void restockInventoryFor(int productQuantity, IProduct product) {
-      StoreConfiguration.getWarehouse().restockInventory(product, productQuantity);
-   }
-
-   private void addToShoppingCart(IProduct product) throws DuplicateProductsException {
-      StoreConfiguration.getShoppingCart().addProduct(product);
-   }
-
-   private Product createProduct(String productName) {
-      return new Product(new CatalogNumber(1), productName, "a product", 0);
-   }
-
-   @DomainStep("product name is " + PRODUCT_NAME)
-   public void renameTheCurrentProduct(String productName) {
-      IProduct product = findProduct(DEFAULT_PRODUCT_NAME);
-      if (product != null && product instanceof Product) {
-         ((Product) product).setName(productName);
-      }
-   }
-
-   @DomainStep("an order for " + QUANTITY + " " + PRODUCT_NAME + " products are placed")
-   public void placeAnOrder(int quantity, String productName) throws Exception {
-
       CatalogNumber catalogNumber = findProduct(productName).getCatalogNumber();
 
       IShoppingCart shoppingCart = StoreConfiguration.getShoppingCart();
       shoppingCart.addItemToOrder(catalogNumber, quantity);
-      //StoreConfiguration.getOrderProcessing().processOrder(shoppingCart.getOrder());
+      StoreConfiguration.getOrderProcessing().processOrder(StoreConfiguration.getShoppingCart().getOrder());
    }
 
    @DomainStep("with the option of shipping " + SHIPPING_TYPE)
@@ -88,11 +54,6 @@ public class SimplePurchaseScenario {
       if (shippingPolicyMap.containsKey(shippingType)) {
          StoreConfiguration.getShoppingCart().getOrder().setShippingPolicy(shippingPolicyMap.get(shippingType));
       }
-   }
-
-   @DomainStep("order was processed")
-   public void processOrder() throws Exception {
-      StoreConfiguration.getOrderProcessing().processOrder(StoreConfiguration.getShoppingCart().getOrder());
    }
 
    @DomainStep("inventory will have " + QUANTITY + " " + PRODUCT_NAME + " products")
@@ -108,6 +69,18 @@ public class SimplePurchaseScenario {
    }
 
 
+   private void restockInventoryFor(int productQuantity, IProduct product) {
+      StoreConfiguration.getWarehouse().restockInventory(product, productQuantity);
+   }
+
+   private void addToShoppingCart(IProduct product) throws DuplicateProductsException {
+      StoreConfiguration.getShoppingCart().addProduct(product);
+   }
+
+   private Product createProduct(String productName) {
+      return new Product(new CatalogNumber(1), productName, "a product", 0);
+   }
+
    private IProduct findProduct(String productName) {
       IShoppingCart shoppingCart = StoreConfiguration.getShoppingCart();
       for (Object candidateProduct : shoppingCart.getProducts()) {
@@ -122,6 +95,4 @@ public class SimplePurchaseScenario {
 
       return null;
    }
-
-
 }
