@@ -1619,3 +1619,16 @@
 /fitnesse/plugins/.svn/entries
 /src/test/java/bdd/.svn/entries
 /src/test/java/bdd/steps/.svn/entries
+/target/classes/jdepend.properties
+/target/classes/simpledesign.properties
+/target/test-classes/bdd/steps/SimplePurchaseScenario$1.class
+/target/test-classes/bdd/steps/SimplePurchaseScenario.class
+/fitnesse/FitNesseRoot/files/testResults/DomainIntro.AllAtOnceShipping/20100525094444_3_0_0_0.xml
+/fitnesse/FitNesseRoot/files/testResults/DomainIntro.AllAtOnceShipping/20100525094558_3_0_0_0.xml
+/fitnesse/FitNesseRoot/files/testResults/DomainIntro.AllAtOnceShippingNothingShipped/20100525094445_3_0_0_0.xml
+/fitnesse/FitNesseRoot/files/testResults/DomainIntro.AllAtOnceShippingNothingShipped/20100525094558_3_0_0_0.xml
+/fitnesse/FitNesseRoot/files/testResults/DomainIntro.AsapShipping/20100525094445_3_0_0_0.xml
+/fitnesse/FitNesseRoot/files/testResults/DomainIntro.AsapShipping/20100525094558_3_0_0_0.xml
+/fitnesse/FitNesseRoot/files/testResults/DomainIntro.SimplePurchaseScenarioAllAtOnceShipping/20100525094445_1_0_0_3.xml
+/fitnesse/FitNesseRoot/files/testResults/DomainIntro/20100525094444_3_0_0_1.xml
+/fitnesse/FitNesseRoot/files/testResults/DomainIntro/20100525094558_3_0_0_0.xml
