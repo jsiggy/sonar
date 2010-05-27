@@ -3,7 +3,6 @@ package bdd.steps;
 import com.sabre.apd.store.application.*;
 import com.sabre.apd.store.common.*;
 import com.sabre.apd.store.configuration.*;
-import com.sabre.apd.store.domain.*;
 import org.givwenzen.annotations.*;
 
 import java.util.*;
@@ -29,21 +28,38 @@ public class SimplePurchaseScenario {
 
    }
 
+   @DomainStep("an order with " + QUANTITY + " " + PRODUCT_NAME + " products")
+   public void createAnOrderWith(int quantity, IProduct product) throws Exception {
+      addAndStockProduct(0, product);
+      addProductToOrder(quantity, product);
+   }
+
+   @DomainStep(QUANTITY + " " + PRODUCT_NAME + " products have been shipped")
+   public void placeAndMakeOrderShippable(int quantity, IProduct product) throws OrderProcessorException {
+      restockInventoryFor(quantity, product);
+      processOrder();
+   }
 
    @DomainStep(QUANTITY + " " + PRODUCT_NAME + " products in inventory")
-   public void addAndStockProduct(int quantity, String productName) throws DuplicateProductsException {
-      IProduct product = createProduct(productName);
+   public void addAndStockProduct(int quantity, IProduct product) throws DuplicateProductsException {
       addToShoppingCart(product);
       restockInventoryFor(quantity, product);
    }
 
    @DomainStep(QUANTITY + " " + PRODUCT_NAME + " products are ordered")
-   public void placeAnOrderFor(int quantity, String productName) throws Exception {
-      CatalogNumber catalogNumber = findProduct(productName).getCatalogNumber();
+   public void placeAnOrderFor(int quantity, IProduct productName) throws Exception {
+      addProductToOrder(quantity, productName);
+      processOrder();
+   }
 
+   private void processOrder() throws OrderProcessorException {
+      StoreConfiguration.getOrderProcessing().processOrder(StoreConfiguration.getShoppingCart().getOrder());
+   }
+
+   private void addProductToOrder(int quantity, IProduct product) {
+      CatalogNumber catalogNumber = product.getCatalogNumber();
       IShoppingCart shoppingCart = StoreConfiguration.getShoppingCart();
       shoppingCart.addItemToOrder(catalogNumber, quantity);
-      StoreConfiguration.getOrderProcessing().processOrder(StoreConfiguration.getShoppingCart().getOrder());
    }
 
    @DomainStep("with the option of shipping " + SHIPPING_TYPE)
@@ -57,9 +73,7 @@ public class SimplePurchaseScenario {
    }
 
    @DomainStep("inventory will have " + QUANTITY + " " + PRODUCT_NAME + " products")
-   public boolean updateInventory(int quantity, String productName) {
-
-      IProduct product = findProduct(productName);
+   public boolean updateInventory(int quantity, IProduct product) {
       return StoreConfiguration.getWarehouse().getCountOfProductInInventory(product) == quantity;
    }
 
@@ -68,31 +82,14 @@ public class SimplePurchaseScenario {
       return StoreConfiguration.getShoppingCart().getOrder().getShipments().size() == quantityOfShipments;
    }
 
-
-   private void restockInventoryFor(int productQuantity, IProduct product) {
+   @DomainStep(QUANTITY + " " + PRODUCT_NAME + " products are restocked in inventory")
+   public void restockInventoryFor(int productQuantity, IProduct product) {
       StoreConfiguration.getWarehouse().restockInventory(product, productQuantity);
    }
 
    private void addToShoppingCart(IProduct product) throws DuplicateProductsException {
-      StoreConfiguration.getShoppingCart().addProduct(product);
-   }
-
-   private Product createProduct(String productName) {
-      return new Product(new CatalogNumber(1), productName, "a product", 0);
-   }
-
-   private IProduct findProduct(String productName) {
-      IShoppingCart shoppingCart = StoreConfiguration.getShoppingCart();
-      for (Object candidateProduct : shoppingCart.getProducts()) {
-         Product realProduct = ((Product) candidateProduct);
-
-         if (realProduct.getName().equals(productName)) {
-            return realProduct;
-
-         }
-
+      if (!StoreConfiguration.getShoppingCart().getProducts().contains(product)) {
+         StoreConfiguration.getShoppingCart().addProduct(product);
       }
-
-      return null;
    }
 }
