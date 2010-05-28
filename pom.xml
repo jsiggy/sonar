@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.givwenzen</groupId>
             <artifactId>GivWenZen</artifactId>
-	        <version>1.0Beta10</version> 
+	        <version>1.0</version> 
             <scope>test</scope>
         </dependency>
 
