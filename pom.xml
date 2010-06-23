@@ -22,8 +22,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.givwenzen</groupId>
-            <artifactId>GivWenZen</artifactId>
+            <groupId>com.googlecode.givwenzen</groupId>
+            <artifactId>givwenzen</artifactId>
 	        <version>1.0</version> 
             <scope>test</scope>
         </dependency>
