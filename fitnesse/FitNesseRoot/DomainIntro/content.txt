@@ -1,9 +1,0 @@
-!contents -R2 -g -p -f -h
-
-!**> setup test system
-
-!define TEST_SYSTEM {slim}
-
-!pomFile ../pom.xml
-
-*!

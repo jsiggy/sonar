@@ -2,15 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <!--<parent>-->
-    <!--<artifactId>simple-design-class</artifactId>-->
-    <!--<groupId>com.sabre.apd.simple-design-class</groupId>-->
-    <!--<version>1.0</version>-->
-    <!--</parent>-->
+
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sabre.apd.simple-design-class</groupId>
-    <artifactId>simple-design-exercise-01</artifactId>
+    <groupId>training.simple-design-class</groupId>
+    <artifactId>sonar-sample</artifactId>
     <version>1.0.0</version>
     
     <dependencies>
@@ -20,21 +16,6 @@
             <version>4.8.1</version>
             <scope>test</scope>
         </dependency>
-
-        <dependency>
-            <groupId>com.googlecode.givwenzen</groupId>
-            <artifactId>givwenzen</artifactId>
-	        <version>1.0</version> 
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.fitnesse</groupId>
-            <artifactId>fitnesse</artifactId>
-	        <version>20100303</version>
-            <scope>runtime</scope>
-        </dependency>
-            
     </dependencies>
 
     <build>
@@ -50,16 +31,4 @@
             </plugin>
         </plugins>
     </build>
-
-
-  <repositories>
-    <repository>
-      <id>localRepo</id>
-      <name>localRepo</name>
-      <url>file:///${basedir}/../../m2-repo</url>
-      <layout>default</layout>
-    </repository>
-  </repositories>
-
-
 </project>

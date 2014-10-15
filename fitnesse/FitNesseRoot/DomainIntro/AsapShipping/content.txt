@@ -1,7 +1,0 @@
-![: script
-given: 8 pen products in inventory
-and: with the option of shipping ASAP
-when: 20 pen products are ordered
-then: inventory will have 0 pen products
-and: there will be 1 shipment/s
-]!

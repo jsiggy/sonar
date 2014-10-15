@@ -1,9 +1,13 @@
+*.idea
+*.iml
+*target
 
-*.tmp
+activemq-data/
 *.log
+*.orig
+*.tmp
 *.zip
 .svn/
-target/
 fitnesse/FitNesseRoot/RecentChanges
 fitnesse/FitNesseRoot/ErrorLogs
 fitnesse/FitNesseRoot/files/testResults/
